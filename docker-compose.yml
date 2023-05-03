@@ -1,0 +1,6 @@
+services:
+  ubuntu-server:
+    build: .
+    volumes:
+      - ./script.sh:/scripts/script.sh
+    tty: true
